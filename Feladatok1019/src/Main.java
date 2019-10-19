@@ -10,7 +10,7 @@ public class Main {
 		// otvenSzazRandom();
 		// korKeruletTerulet();
 		// bekerKarakterlancot();
-		kutyaElofordulas();
+		// kutyaElofordulas();
 
 	}
 
@@ -146,15 +146,14 @@ public class Main {
 
 		String[] eredmeny = szoveg.split(" ");
 		System.out.println(szoveg);
-		
+
 		int counter = 0;
 		for (String item : eredmeny) {
-			System.out.println(item);
 			if (item.contentEquals("kutya")) {
 				counter++;
 			}
 		}
-		
+
 		System.out.println("kutya :" + counter);
 
 	}

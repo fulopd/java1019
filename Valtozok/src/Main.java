@@ -39,6 +39,7 @@ public class Main {
 		double cospi = Math.cos(pi);
 		System.out.println(cospi);
 		
+		//Lefele kerekít
 		double piKerekites = Math.floor(pi);
 		System.out.println(piKerekites);
 		
@@ -53,6 +54,10 @@ public class Main {
 		System.out.println(ran.nextInt(5));
 		
 		
+		
+		String szoveg = Character.toString('A');
+		System.out.println(szoveg);		
+		System.out.println(Character.hashCode('A'));
 		
 		
 	}

@@ -1,3 +1,4 @@
+import java.util.Random;
 
 public class Main {
 
@@ -35,6 +36,21 @@ public class Main {
 		System.out.println(pi);
 		System.out.println(e);
 		
+		double cospi = Math.cos(pi);
+		System.out.println(cospi);
+		
+		double piKerekites = Math.floor(pi);
+		System.out.println(piKerekites);
+		
+		//felfele kerekít
+		double piKerFel = Math.ceil(pi);
+		System.out.println(piKerFel);
+		
+		double rand = Math.random() * 100;
+		System.out.println(Math.rint(rand)); //kerekitési szabályok szerint kerekít
+		
+		Random ran = new Random();
+		System.out.println(ran.nextInt(5));
 		
 		
 		
